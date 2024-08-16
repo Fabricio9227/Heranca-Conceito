@@ -6,7 +6,7 @@ public class Funcionario extends Pessoa {
 
     //Método
     public void mudarTrabalho() {
-
+        this.trabalhando = ! this.trabalhando; //"Trabalhando" recebe o valor contrário e atual de "trabalhando"
     }
 
     //Acessores

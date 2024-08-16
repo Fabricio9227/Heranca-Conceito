@@ -29,4 +29,9 @@ public class Pessoa {
     public void setSexo(String se) {
         this.sexo = se;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{ " + " nome = " + nome + ", idade = " + idade + ", sexo = " + sexo+ " }";
+    }
 }

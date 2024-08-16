@@ -6,7 +6,7 @@ public class Aluno extends Pessoa { //"extends" significa que "Aluno" é uma cla
 
     //Métodos
     public void cancelarMatr() {
-
+        System.out.println("Matrícula caneclada");
     }
 
     //Acessores
